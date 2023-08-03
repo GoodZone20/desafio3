@@ -6,7 +6,7 @@ function checkLogin(event) {
     var validPassword = "S3nh4-Secr3t4";
     var checkboxMarcado = document.getElementById("aceitarCheckbox").checked;
     if (checkboxMarcado && email === validEmail && password === validPassword) {
-        window.location.href = "../final.html";
+        window.location.href = "https://goodzone20.github.io/desafio3/final.html";
     } else if (!checkboxMarcado) {
         alert("Você precisa aceitar os termos para continuar.");
     } else {
