@@ -1,0 +1,27 @@
+@charset "UTF-8";
+* { /* Configurações globais*/
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background: url(#) no-repeat;
+	background-size: cover; 
+}
+
+.fundo {
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.781);
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+}
