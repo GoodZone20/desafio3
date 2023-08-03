@@ -7,7 +7,7 @@ const hints = [
   'Verifique se existem arquivos ocultos ou comentários relevantes.',
   'A resposta pode estar codificada ou criptografada.',
   'Aperte em "Sim" logo e continue kkkkk',
-  // Adicione mais dicas conforme necessário
+  'Você aceitar os termos para avançar'
 ];
 
 function showHint() {
